@@ -2,7 +2,8 @@
 
 #Requirement for Activity :
 
-public int generateRandomNumber()
+
+    public int generateRandomNumber()
     {
         java.util.Random random = new java.util.Random();
         int ran = random.nextInt(10-1+1)+1;
